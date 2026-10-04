@@ -1,0 +1,14 @@
+.env
+*.sqlite3
+__pycache__/
+*.pyc
+.venv/
+*.log
+
+# runtime data (videos, music, renders)
+data/inbox/*
+data/music/*
+data/work/*
+data/output/*
+!data/*/.gitkeep
+.pytest_cache/
